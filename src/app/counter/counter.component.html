@@ -1,0 +1,12 @@
+<button id="homeBtn" class="btn" (click)="increment()">Vitesse</button>
+<button id="awayBtn" class="btn" (click)="decrement()">Ajax</button>
+
+<ng-container *ngIf="count$ | async as count else loading">
+  <div>
+    <span class="homeSpan">Vitesse: {{count.home}}</span>
+    <span>Ajax: {{count.away}} </span>
+  </div>
+</ng-container>
+
+<br><br>
+<button id="reset" class="btn" (click)="reset()">Reset Counter</button>

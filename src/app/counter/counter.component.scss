@@ -1,0 +1,24 @@
+.btn{
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.3);
+  margin-right: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#homeBtn{
+  color: #000;
+  background: yellow;
+}
+
+#awayBtn{
+  color: #fff;
+  background: #f00;
+}
+
+.homeSpan{
+  margin-right: 12px;
+}
